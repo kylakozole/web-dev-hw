@@ -15,7 +15,7 @@
    - learn why I messed up and wasted *so* much time.
  4. Know that this can only get better...
 
- `**I get why all the formatting instructions are in code boxes, they do not apply formatting**`
+ `**I get why all the coding instructions are in code boxes, they do not apply formatting**`
 
  ---
 
@@ -27,4 +27,4 @@ Here are my screenshots:
 
 ![Screenshot of my directory](/project-1./images/screenshot-2.png).
 
-![Screenshot of my directory](/project-1./images/screenshot-1.png)
+![Screenshot of my directory](/images/screenshot-1.png)

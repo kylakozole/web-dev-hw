@@ -25,6 +25,6 @@
 
 Here are my screenshots:
 
-![Screenshot of my directory](/images/screenshot-2.png)
+![Screenshot of my directory](./images/screenshot-2.png)
 
-![Screenshot of my directory](/images/screenshot-1.png)
+![Screenshot of my directory](./images/screenshot-1.png)

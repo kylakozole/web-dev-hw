@@ -24,3 +24,24 @@ Project-2</h1>
 </p>
 
 <p>I read a lot of the issues board, but honestly, our class is quick to respond. By the time I checked them, they had all been addressed. Way to go @jonswallow. I'll be able to be active sooner on this next project process.</p>
+
+<h4>Part 2:</h4>
+<p>Still didn't help on the message board... I was behind myself.</p>
+<p>What I had no problems with:</p>
+  <ul>
+    <li>relative and absolute links</li>
+    <li>various form elements</li>
+    <li>styling</li>
+    <li>tables</li>
+  </ul>
+<p>What I had problems with:</p>
+    <ul>
+      <li>images</li>
+      <li>image size</li>
+      <li>form heading</li>
+      <li>submit button with image</li>
+      <li>formatting/organizing my code</li>
+      <li>submitting on-time</li>
+    </ul>
+<p>I got sick this week and I learned that learning coding does not work when my head isn't functioning... So that sucked.<br />
+<i>Next week will be better. </i></p>

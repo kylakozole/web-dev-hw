@@ -22,7 +22,7 @@
       <li><h4>  How do you like to spend your weekends?</h4>
         <p>(Select all that apply)
             <br />
-          <input type="checkbox" name="activity" value="music" />Listen to live music
+          <input type="checkbox" name="activity" value="music" autofocus/>Listen to live music
             <br />
           <input type="checkbox" name="activity" value="beer" />Enjoy a local brew
             <br />
@@ -80,11 +80,11 @@
       <fieldset>
         <legend>Get Your Results!</legend>
         <label>Name:<br />
-            <input type="text" name="name" placeholder="First Name" autofocus/></label>
+            <input type="text" name="name" placeholder="First Name" required/></label>
         <br />
 
         <label>Email Address:<br />
-            <input type="text" name="email" placeholder="you@site.com"/></label>
+            <input type="text" name="email" placeholder="you@site.com" required/></label>
             <br />
           <button>
             <img src="../images/submitButton.png" alt="submit button image" width="75" height="75" />

@@ -14,7 +14,81 @@
       p {color: #777;}
     </style>
   </head>
-  <body>
+  <body><form action="http://www.example.com" method="get">
+    <h1>Which Famous Artist Are You?</h1>
+
+<fieldset>
+    <ol>
+      <li><h4>  How do you like to spend your weekends?</h4>
+        <p>(Select all that apply)
+            <br />
+          <input type="checkbox" name="activity" value="music" />Listen to live music
+            <br />
+          <input type="checkbox" name="activity" value="beer" />Enjoy a local brew
+            <br />
+          <input type="checkbox" name="activity" value="collector" />Fill time capsules wtih random artifacts (such as mummified Ancient Egyptian feet) to be discovered in the future
+            <br />
+          <input type="checkbox" name="activity" value="board game" />Play Settlers of Catan
+            <br />
+          <input type="checkbox" name="activity" value="other" />None of these things/ I don't live in Missoula
+      </li>
+    <br />
+      <li>  <h4> Have you ever driven a car full of cauliflower? </h4>
+        <input id="Yes" type="radio" name="Car" value="y">
+        <label for="Yes">Yes</label>
+        <input id="No" type="radio" name="Car" value="n">
+     <label for="No">No</label>
+        <p>If yes, please upload photo evidence (jpeg):</p>
+   <input type="file" name="cauliflower car pic" />
+      <br />
+   <input type="submit" value="Upload" />
+      </li>
+    <br />
+      <li> <h4> If you needed a fixtive, what would you likely do? </h4>
+        <select name="action">
+        <option value="store">Go to Michaels</option>
+        <option value="cat">Use cat urine</option>
+        <option value="friend">Borrow a friend's</option>
+        <option value="neighbor">Ask your neighbor</option>
+      </li>
+    <br />
+      <li> <h4> Did you include bits of your cigarettes in your painting?: </h4></br>
+            <input id="Yes" type="radio" name="Cigarettes" value="y">
+            <label for="Yes">Yes</label>
+            <input id="No" type="radio" name="Cigarettes" value="n">
+         <label for="No">No</label>
+	       <label> If yes, on a scale of 1-5, how drunk were you while painting? (1=sober):
+            <input type="text" name="Drunk Scale" maxlength="1" /></label>
+        </li>
+      <br />
+      <li> <h4>You want to improve your representation of the human figure, so you:</h4>
+      <br />
+   <input type="radio" name="Technique" value="club" /> Go to the Fox Club
+      <br />
+   <input type="radio" name="Technique" value="class" /> Join a figure drawing class
+      <br />
+   <input type="radio" name="Technique" value="spy" /> Spy on your neighbors
+      <br />
+    <input type="radio" name="Technique" value="disect" /> Draw the dead bodies you are privately disecting
+       <br />
+    <input type="radio" name="Technique" value="other" /> Other     <input type="text" name="Blank" id="Other" />
+
+      </li>
+    <br />
+
+    <h4>Great, now let's send you the results!</h4>
+      <fieldset>
+        <legend>Get Your Results!</legend>
+        <label>Name:<br />
+            <input type="text" name="name" placeholder="First Name" autofocus/></label>
+        <br />
+
+        <label>Email Address:<br />
+            <input type="text" name="email" placeholder="you@site.com"/></label>
+          <input type="image" src="../images/submitButton.jpg" alt="submit button image" width="75" height="75" />
+
+    </fieldset>
+    <hr>
 
     <ul>
       <li><a href="./instructions.html">Let's Make Another Masterpiece!</a></li>

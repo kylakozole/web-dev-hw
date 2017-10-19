@@ -45,3 +45,6 @@ Project-2</h1>
     </ul>
 <p>I got sick this week and I learned that learning coding does not work when my head isn't functioning... So that sucked.<br />
 <i>Next week will be better. </i></p>
+
+<h4>Part 3: </h4>
+<p> 

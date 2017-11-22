@@ -1,0 +1,43 @@
+
+.main-container div {
+  font-size: 1em;
+  background-color: inherit;
+  color:inherit;
+  margin: 1em;
+  padding: 1em;
+}
+.main-container div p {
+  background-color:inherit;
+  color:inherit;
+  padding: 1em;
+}
+/* differentiate dividers for paragraphs by CLASS "___" */
+.parent-1 .p1 {
+  font-family: "Linden Hill", serif;
+  line-height: 1.45em;
+}
+
+p1.center {
+  text-align: center;
+}
+
+p1.indent {
+  text-indent: 1.5em
+}
+
+.parent-2 .p2 {
+  font-family: "Lora", serif;
+  line-height: 1.45em;
+}
+
+.title-container .h1 {
+  line-height: 1.45em;
+  font-weight: bold;
+  margin: 1.5em 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Fredericka the Great", cursive;
+}
+h1.medium-space {
+  letter-spacing: .75em;
+}

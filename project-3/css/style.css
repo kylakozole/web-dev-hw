@@ -8,6 +8,11 @@ h1  {
      text-shadow: 4px 4px 4px #aaa;
     }
 
+h2 {
+    text-align:center;
+    font-family: "Linden Hill", serif;
+}
+
     /* NavBar */
     .active {
 
@@ -54,6 +59,7 @@ body {
       background-color: black;
       font-family: 'Linden Hill', serif;
      }
+
 
 /* Links inside dropdown */
 .dropdown-content a {

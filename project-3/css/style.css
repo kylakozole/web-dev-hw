@@ -1,7 +1,112 @@
 
+
+h1  {
+     color: #FFFFFF;
+     text-align: center;
+     font-family: 'Tangerine', serif;
+     font-size: 60px;
+     text-shadow: 4px 4px 4px #aaa;
+    }
+
+    /* NavBar */
+    .active {
+
+        background-color: light-green;
+        text-align: center;
+        /* add font */
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: light-green;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dropbtn {
+    background-color: Khaki;
+    color: dark-gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: khaki;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+body {
+      background-color: black;
+      font-family: 'Linden Hill', serif;
+     }
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: pale-yellow}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: pale-yellow;
+}
+.button {
+  text-align: center;
+}
+
+
+li {
+  text-align: center;
+  display: inline-block;
+}
+
+li a {
+    display: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* overlapping container */
+
+.title-container .fixed-element {
+    position: fixed;
+    top: 20px;
+    left: 40px
+    width: 100%
+    font-size: 2em;
+    text-align: center;
+}
+}
 .main-container div {
   font-size: 1em;
-  background-color: inherit;
+  background-color: black;
   color:inherit;
   margin: 1em;
   padding: 1em;

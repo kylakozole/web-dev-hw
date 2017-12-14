@@ -21,7 +21,7 @@ P {
 
 /* NavBar */
 	.active {
-							 background-color: #404241;
+							 background-color: purple;
 							 text-align: center;}
 							 li {
 							   text-align: center;
@@ -30,7 +30,7 @@ P {
 
 							 li a {
 							     display: inherit;
-							     color: #edefee;
+							     color: white;
 							     text-align: center;
 							     padding: 14px 16px;
 							     text-decoration: none;

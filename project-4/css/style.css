@@ -1,14 +1,16 @@
 /* Text */
 h2 {
-	font-family: 'barlow', sans-serif;
+	font-family: 'Linden Hill', serif;
 	color: #ffffff;
 }
 
 h1 {
-	font-family: 'coda', cursive;
+	font-family: 'Unlock', serif;
 }
 
+
 P {
+	font-family: 'Linden Hill', serif;
 	color: #404241;
 }
 
@@ -58,11 +60,13 @@ P {
 							 color: #ff8800;}
 
 	.square-2 {
-	             background-color: #a4a8a7;
-	             width: 100%;
-	             text-align: center;
-	             padding: 5px;
-							 color: #00ff61;}
+		font-family: 'Linden Hill', serif;
+		color: #ffffff;
+	  background-color: #a4a8a7;
+	  width: 100%;
+	  text-align: center;
+	  padding: 5px;
+		color: teal;}
 
 	.square-3 {
 						 background-color:#707272;

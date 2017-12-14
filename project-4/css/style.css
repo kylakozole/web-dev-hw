@@ -23,7 +23,7 @@ P {
 
 /* NavBar */
 	.active {
-							 background-color: purple;
+							 background-color: #F588F2;
 							 text-align: center;}
 							 li {
 							   text-align: center;
@@ -48,50 +48,47 @@ P {
 	#container {
 	            display: flex;
 	            flex-wrap: wrap;
-	            font-family: 'barlow', sans-serif;}
+							font-family: 'Linden-Hill', serif;
+							color: black;}
+/* boxes */
+	.box-1 {
+	    background-color: #EFFCF5;
+	    width: 100%;
+	    text-align: center;
+	    padding: 5px;
+			color: #662A9B;}
 
-/* !!!!!! change names of squares --> box? */
+	.box-2 {
+	    background-color: #CBF8DF;
+	    width: 100%;
+	    text-align: center;
+	    padding: 5px;
+			color: #D689D7;}
 
-	.square-1 {
-	             background-color: #edefee;
-	             width: 100%;
-	             text-align: center;
-	             padding: 5px;
-							 color: #ff8800;}
+	.box-3 {
+			background-color: #9EBDAB;
+			width: 100%;
+			text-align: center;
+			padding: 5px;
+			color: #D689D7}
 
-	.square-2 {
-		font-family: 'Linden Hill', serif;
-		color: #ffffff;
-	  background-color: #a4a8a7;
-	  width: 100%;
-	  text-align: center;
-	  padding: 5px;
-		color: teal;}
+	.box-4 {
+	     background-color: #839D8F;
+	     width: 100%;
+	     max-height: 350px;
+	     text-align: center;
+	     padding: 5px;
+	     overflow: scroll;
+			color:#F4D3F5;}
 
-	.square-3 {
-						 background-color:#707272;
-						 width: 100%;
-						 text-align: center;
-						 padding: 5px;
-					 	 color:#00bbff}
+@media screen and (min-width: 1015px) {
 
-	.square-4 {
-	                background-color: #404241;
-	                width: 100%;
-	                max-height: 350px;
-	                text-align: center;
-	                padding: 5px;
-	                overflow: scroll;
-									color:#ff0000;}
-
-	@media screen and (min-width: 1015px) {
-/* vary size of boxes for stacking */
-                                         .square-1 {
-	                                                    width: 100%;}
-	                                       .square-2 {
-	                                                    width: 50%;}
-																				 .square-3 {
-						 	                                         width: 50%;}
-	                                       .square-4 {
-	                                                       width: 100%;}
-	                                                                    }
+	.box-1 {
+	    	width: 100%;}
+	.box-2 {
+	    	width: 50%;}
+	.box-3 {
+				width: 50%;}
+	.box-4 {
+	  		width: 100%;}
+	 }

@@ -42,7 +42,7 @@ h2 {
 /* The container */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 /* Dropdown Content */
